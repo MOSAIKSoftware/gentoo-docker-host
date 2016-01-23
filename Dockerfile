@@ -56,3 +56,5 @@ RUN etc-update --automode -5
 ################################
 
 
+COPY docker-services /etc/init.d/docker-services
+RUN chmod +x /etc/init.d/docker-services
